@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Martin Aguilar</title>
+</head>
+<body>
+    <h1>Contactanos</h1>
+    <p>Completa el siguiente formulario contandome sobre el proyecto o documento que necesites traducir</p>
+    <form action="#" method="post"></form>
+    <p>
+        <label for="email">Correo electronico: </label>
+        <input type="email" id="email" name="email" required>
+
+    </p>
+
+    <p>
+        <label for="telefono">telefono del contacto: </label>
+        <input type="tel" id="telefono" name="telefono">
+    </p>
+
+    <p>
+        <label for="tipo_documento">Tipo de documento a traducir:</label><br>
+        <select id="tipo_documento" name="tipo_documento">
+            <option value="partida_nacimiento">Partida de nacimiento</option>
+            <option value="partida_matrimonio">Partida de matrimonio</option>
+            <option value="titulo_analitico">Título/analítico</option>
+            <option value="contrato">Contrato</option>
+            <option value="otro">Otro</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="idioma_origen">Idioma de origen:</label><br>
+        <select id="idioma_origen" name="idioma_origen">
+            <option value="español">Español</option>
+            <option value="ingles">Inglés</option>
+            <option value="italiano">Italiano</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="certificada">¿Necesita traducción certificada?</label><br>
+        <select id="certificada" name="certificada">
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+        <option value="no_seguro">No estoy seguro/a</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="mensaje">Mensaje / detalles adicionales:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="6" cols="40"></textarea>
+
+    </p>
+
+    <p><a href="./index.html">Volver a la pagina principal</a></p>
+
+    <p>
+        <input type="submit" value="Enviar consulta">
+    </p>
+
+
+
+
+
+</body>
+</html>
