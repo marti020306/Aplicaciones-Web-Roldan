@@ -1,0 +1,20 @@
+/*
+Sintaxis
+*/
+
+/*Regla de Estilo(rule)*/
+/*
+selector {
+    propiedad1: valor;
+}
+*/
+
+/*Selectores de TIPO*/
+
+body{
+    background-color: aqua;
+}
+
+header{
+    background-color: aliceblue;
+}
