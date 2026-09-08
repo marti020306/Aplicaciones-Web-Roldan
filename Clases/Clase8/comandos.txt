@@ -24,4 +24,5 @@ Comandos primera vez (en su casa)
     pn install
 
     -Configurar scripts -> "dev":"five-server  "
+    pnpm run dev
     
