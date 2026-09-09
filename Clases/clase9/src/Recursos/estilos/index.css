@@ -1,0 +1,64 @@
+/*
+Sintaxis
+*/
+
+/*Regla de Estilo(rule)*/
+/*
+selector {
+    propiedad1: valor;
+}
+*/
+
+/*Selectores de TIPO*/
+
+html{
+    font-family: Slabo, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #6B1D2F;
+}
+
+header{
+    background-color: #f2f2f2 ;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+/*selectores de clase*/
+
+/*.vinculos{
+   color: black;
+}*/
+
+.vinculos{
+    color: black;
+}
+
+.encabezado-principal{
+    background-color: rgb(209, 17, 17);
+}
+
+.encabezado-principal .vinculos a{
+    color: #6b0caa;
+}
+
+/*ATRIBUTO*/
+[href]{
+
+}
+
+/*IMPORTAR FUENTE*/
+
+@font-face {
+    font-family: Slabo ;
+    src: url(./fuentes/Slabo13px-Regular.ttf);
+}
+
+/*UNIVERSAL*/
+/**{
+    outline: 1px red solid;
+}*/
